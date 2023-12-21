@@ -14,9 +14,6 @@ class MyScrape {
         dotenv.config();
         this.user = process.env.USER_NAME === undefined ? `` : process.env.USER_NAME;
         this.pass = process.env.PASSWORD === undefined ? `` : process.env.PASSWORD;
-
-        console.log(`USER:${this.user}`);
-        console.log(`PASS:${this.pass}`);
     }
 
     async run() {
