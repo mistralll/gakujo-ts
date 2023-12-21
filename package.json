@@ -1,0 +1,28 @@
+{
+  "name": "scraping-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mistralll/playwright-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mistralll/playwright-sample/issues"
+  },
+  "homepage": "https://github.com/mistralll/playwright-sample#readme",
+  "dependencies": {
+    "playwright-core": "^1.40.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
